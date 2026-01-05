@@ -1,0 +1,1007 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "Complete archive taxonomy with structure and descriptions",
+    "level_1_categories": [
+      "Applications",
+      "Audio",
+      "Books",
+      "Code",
+      "Compressed",
+      "Data",
+      "Docs",
+      "Images",
+      "Intake",
+      "Journal",
+      "Movies",
+      "Music",
+      "Notes",
+      "Projects",
+      "Systems",
+      "Video"
+    ]
+  },
+  "categories": {
+    "Applications": {
+      "description": "Large, mode-shifting creative or technical environments.\nThese are tool ecosystems, not source code or projects.\nExamples include game engines, DAWs, notation tools, and IDEs.",
+      "structure": {
+        "3D": [
+          "Blender"
+        ],
+        "Game_Engines": [
+          "Unreal",
+          "Godot"
+        ],
+        "Audio": [
+          "Audacity",
+          "Reaper"
+        ],
+        "Music_Theory": [
+          "MuseScore"
+        ],
+        "Visual_Design": [
+          "GIMP"
+        ],
+        "Video": [
+          "DaVinci_Resolve"
+        ],
+        "Writing": [
+          "Obsidian",
+          "LaTeX_Toolchain"
+        ],
+        "Electronics": [
+          "Arduino_IDE",
+          "PlatformIO"
+        ],
+        "IDEs": [
+          "VSCode",
+          "Atom"
+        ]
+      },
+      "descriptions": {
+        "tasks": {
+          "3D": "Three-dimensional modeling and procedural world-building environments.\nTools for spatial thinking, geometry, and form.",
+          "Game_Engines": "Interactive simulation and game development environments.\nTools for building real-time systems and virtual worlds.",
+          "Audio": "Audio production and manipulation environments.\nRecording, editing, mixing, and sound experimentation.",
+          "Music_Theory": "Music notation and theory-focused tools.\nUsed for analysis, composition, and score-based thinking.",
+          "Visual_Design": "Visual composition and design tools.\nRaster and vector-based image creation and editing.",
+          "Video": "Video editing and post-production environments.\nUsed for assembling, grading, and rendering moving images.",
+          "Writing": "Writing and thinking environments.\nTools that shape how long-form text is produced and organized.",
+          "Electronics": "Embedded systems and hardware programming environments.\nTools tied to physical devices and microcontrollers.",
+          "IDEs": "Integrated development environments.\nGeneral-purpose coding workspaces, kept intentionally minimal."
+        },
+        "apps": {
+          "Blender": "3D creation suite for modeling, animation, rendering, and procedural workflows.",
+          "Unreal": "High-performance game engine for real-time simulation and interactive worlds.",
+          "Godot": "Lightweight, open-source game engine emphasizing simplicity and rapid iteration.",
+          "Audacity": "Audio editor for recording, trimming, and basic sound manipulation.",
+          "Reaper": "Highly configurable digital audio workstation focused on precision and scripting.",
+          "MuseScore": "Music notation software for score writing, analysis, and playback.",
+          "GIMP": "Raster-based image editor for photo manipulation and visual design.",
+          "DaVinci_Resolve": "Professional video editing and color grading environment.",
+          "Obsidian": "Markdown-based writing environment for linked notes and long-form thinking.",
+          "LaTeX_Toolchain": "Document preparation environment for structured, typeset writing.",
+          "Arduino_IDE": "Integrated environment for programming Arduino-compatible microcontrollers.",
+          "PlatformIO": "Embedded development ecosystem supporting multiple boards and frameworks.",
+          "VSCode": "Extensible code editor and development environment.",
+          "Atom": "Hackable text editor used as a lightweight IDE."
+        }
+      }
+    },
+    "Audio": {
+      "description": "Non-music audio artifacts and audio work-in-progress.\nRecordings, experiments, stems, sound design, and cooked audio.",
+      "structure": [
+        "Recordings",
+        "Experiments",
+        "Programmatic",
+        "AI"
+      ],
+      "descriptions": {
+        "Recordings": "Captured audio from the physical world.\nLive recordings, voice takes, instrument captures, and raw source material.",
+        "Experiments": "Exploratory and provisional audio work.\nHalf-formed ideas, sound tests, sketches, and throwaway explorations.",
+        "Programmatic": "Audio generated or manipulated through code.\nAlgorithmic composition, DSP experiments, scripts, and computational sound.",
+        "AI": "Audio created or transformed using machine learning systems.\nModel outputs, training artifacts, prompts, and AI-assisted sound work."
+      }
+    },
+    "Books": {
+      "description": "Long-form written works intended to be read as books.\nPDF, EPUB, MOBI, and similar formats. Mostly read-only.",
+      "structure": {
+        "Mathematics": [
+          "Algebra",
+          "Analysis",
+          "Topology",
+          "Graph_Theory",
+          "Probability",
+          "Number_Theory",
+          "Logic",
+          "Discrete_Math",
+          "Geometry"
+        ],
+        "Science": [
+          "Physics",
+          "Biology",
+          "Chemistry",
+          "Complexity",
+          "Systems",
+          "Earth_Science"
+        ],
+        "Philosophy": [
+          "Metaphysics",
+          "Epistemology",
+          "Ethics",
+          "Daoism",
+          "Philosophy_of_Science",
+          "Logic",
+          "Aesthetics"
+        ],
+        "Literature": [
+          "Classicism",
+          "Modernism",
+          "Postmodernism",
+          "Magical_Realism",
+          "Mythic",
+          "Speculative",
+          "Essays",
+          "Literary_Criticism",
+          "Drama",
+          "Poetry",
+          "Fantasy",
+          "Science_Fiction",
+          "Historical_Fiction",
+          "Mystery",
+          "Thriller",
+          "Horror",
+          "Romance"
+        ],
+        "History": [
+          "Ancient",
+          "Medieval",
+          "Early_Modern",
+          "Modern",
+          "History_of_Science",
+          "History_of_Philosophy"
+        ],
+        "Computing": [
+          "Programming",
+          "Algorithms",
+          "Systems",
+          "AI",
+          "Graphics",
+          "Game_Development",
+          "Software_Engineering"
+        ],
+        "Psychology": [
+          "Cognitive",
+          "Behavioral",
+          "Neuroscience",
+          "Developmental"
+        ],
+        "Art": [
+          "Art_History",
+          "Theory",
+          "Visual_Arts",
+          "Architecture"
+        ],
+        "Music": [
+          "Music_Theory",
+          "History",
+          "Composition",
+          "Ethnomusicology"
+        ],
+        "Misc": [
+          "Unsorted"
+        ]
+      },
+      "descriptions": {
+        "Books": "Long-form works intended for slow reading and sustained thought.\nThis collection is organized to support browsing, wandering, and curiosity,\nnot obligation or completion tracking.",
+        "Mathematics": "Mathematical texts organized by domain and mode of thinking.\nThese shelves are meant to be browsed, revisited, and explored non-linearly.",
+        "Science": "Scientific works exploring the natural world.\nOrganized by discipline and conceptual focus rather than textbook sequence.",
+        "Philosophy": "Philosophical works organized by questions, traditions, and modes of inquiry.\nThis space supports reflection rather than systematic study.",
+        "Literature": "Literary works organized by aesthetic tradition and narrative mode.\nThese shelves invite wandering based on tone, voice, and imaginative posture.",
+        "History": "Historical works organized by era and thematic focus.\nIntended for contextual understanding rather than chronological completeness.",
+        "Computing": "Books about computation, software, and digital systems.\nFocused on ideas, architecture, and practice rather than specific tools.",
+        "Psychology": "Works exploring mind, behavior, and cognition.\nOrganized by perspective rather than clinical or academic taxonomy.",
+        "Art": "Books about visual art, aesthetics, and built environments.\nThese shelves support visual thinking and historical context.",
+        "Music": "Books about music as structure, history, and cultural practice.\nSeparate from listening collections; focused on understanding and reflection.",
+        "Misc": "Books that do not yet have a clear home.\nThis is a temporary holding space, not a permanent category."
+      }
+    },
+    "Code": {
+      "description": "Source code and scripts.\nRepositories, utilities, experiments, and executable logic.",
+      "structure": {
+        "Libraries": [
+          "Python",
+          "JavaScript",
+          "Rust",
+          "Go",
+          "C_CPP"
+        ],
+        "Tools": [
+          "CLI",
+          "Scripts",
+          "Automation"
+        ],
+        "Learning": [
+          "Tutorials",
+          "Exercises",
+          "Courses"
+        ],
+        "Experiments": [
+          "Prototypes",
+          "Sketches",
+          "Spikes"
+        ],
+        "Reference": [
+          "Snippets",
+          "Templates",
+          "Configs"
+        ]
+      },
+      "descriptions": {
+        "Libraries": "Reusable code organized by language.\nPackages, modules, and standalone libraries intended for import.",
+        "Tools": "Executable utilities and scripts.\nCode that does something when run, not imported.",
+        "Learning": "Educational code and exercises.\nCode written to learn, not to ship.",
+        "Experiments": "Exploratory and throwaway code.\nIdeas tested quickly without polish or permanence.",
+        "Reference": "Code kept for reference, not execution.\nPatterns, templates, and configuration examples."
+      }
+    },
+    "Compressed": {
+      "description": "Archive containers such as zip, tar, and 7z files.\nThis is a staging area, not a permanent home.",
+      "structure": [
+        "Downloads",
+        "Backups",
+        "Exports",
+        "Unknown"
+      ],
+      "descriptions": {
+        "Downloads": "Compressed files from the web.\nDownloaded archives awaiting extraction and classification.",
+        "Backups": "Compressed backup archives.\nSnapshots and exports from other systems or services.",
+        "Exports": "Compressed exports from applications.\nProject bundles, database dumps, and tool-specific archives.",
+        "Unknown": "Compressed files of unclear origin.\nAwaiting inspection before classification or deletion."
+      }
+    },
+    "Data": {
+      "description": "Structured data artifacts.\nCSV, JSON, Parquet, logs, generated datasets, and analysis outputs.",
+      "structure": {
+        "Tabular": [
+          "CSV",
+          "Parquet",
+          "Excel"
+        ],
+        "Structured": [
+          "JSON",
+          "YAML",
+          "XML"
+        ],
+        "Databases": [
+          "SQLite",
+          "Dumps",
+          "Exports"
+        ],
+        "Logs": [
+          "Application",
+          "System",
+          "Analytics"
+        ],
+        "Generated": [
+          "Model_Outputs",
+          "Simulations",
+          "Scraped"
+        ],
+        "Geospatial": [
+          "GeoJSON",
+          "Shapefiles",
+          "Rasters"
+        ]
+      },
+      "descriptions": {
+        "Tabular": "Row-and-column data formats.\nData that fits naturally into spreadsheets and dataframes.",
+        "Structured": "Hierarchical and nested data formats.\nConfiguration files, API responses, and structured documents.",
+        "Databases": "Database files and exports.\nPortable database containers and migration artifacts.",
+        "Logs": "Log files and event records.\nTime-series data from applications and systems.",
+        "Generated": "Programmatically created data.\nOutputs from models, simulations, and automated collection.",
+        "Geospatial": "Geographic and spatial data.\nMaps, coordinates, and location-based datasets."
+      }
+    },
+    "Docs": {
+      "description": "Documents that are not books.\nManuals, contracts, receipts, reference PDFs, and administrative files.",
+      "structure": {
+        "Reference": [
+          "Manuals",
+          "Datasheets",
+          "Specifications",
+          "API_Docs"
+        ],
+        "Administrative": [
+          "Contracts",
+          "Receipts",
+          "Invoices",
+          "Tax",
+          "Legal"
+        ],
+        "Personal": [
+          "Identity",
+          "Medical",
+          "Education",
+          "Employment"
+        ],
+        "Correspondence": [
+          "Letters",
+          "Emails",
+          "Messages"
+        ],
+        "Presentations": [
+          "Slides",
+          "Posters",
+          "Handouts"
+        ]
+      },
+      "descriptions": {
+        "Reference": "Technical reference materials.\nDocumentation meant to be consulted, not read cover-to-cover.",
+        "Administrative": "Business and administrative paperwork.\nFinancial, legal, and transactional documents.",
+        "Personal": "Personal identity and life documents.\nRecords that define identity, history, and credentials.",
+        "Correspondence": "Written communication archives.\nLetters, emails, and messages worth preserving.",
+        "Presentations": "Visual presentation materials.\nSlides, posters, and materials designed for display."
+      }
+    },
+    "Images": {
+      "description": "Still images.\nPhotography, scans, artwork, screenshots, and visual assets.",
+      "structure": {
+        "Photography": [
+          "Personal",
+          "Travel",
+          "Events",
+          "Street",
+          "Nature"
+        ],
+        "Scans": [
+          "Documents",
+          "Artwork",
+          "Film",
+          "Prints"
+        ],
+        "Screenshots": [
+          "Desktop",
+          "Mobile",
+          "Web",
+          "Games"
+        ],
+        "Artwork": [
+          "Digital",
+          "Traditional",
+          "AI_Generated",
+          "Reference"
+        ],
+        "Assets": [
+          "Icons",
+          "Textures",
+          "UI",
+          "Stock"
+        ]
+      },
+      "descriptions": {
+        "Photography": "Photographs taken with cameras.\nOrganized by context and subject matter.",
+        "Scans": "Digitized physical materials.\nDocuments, artwork, and film converted to digital format.",
+        "Screenshots": "Screen captures from devices.\nVisual records of digital interfaces and content.",
+        "Artwork": "Created visual art.\nOriginal artwork, both digital and digitized traditional.",
+        "Assets": "Reusable visual components.\nIcons, textures, and design elements."
+      }
+    },
+    "Intake": {
+      "description": "Temporary landing zone for unclassified material.\nNothing here is considered organized or permanent.",
+      "structure": [
+        "Downloads",
+        "Desktop",
+        "Mobile",
+        "Email",
+        "Transfers",
+        "Unsorted"
+      ],
+      "descriptions": {
+        "Downloads": "Files downloaded from the web.\nBrowser downloads awaiting classification.",
+        "Desktop": "Files saved to desktop.\nQuick saves and temporary desktop clutter.",
+        "Mobile": "Files transferred from mobile devices.\nPhotos, screenshots, and downloads from phones and tablets.",
+        "Email": "Attachments saved from email.\nFiles extracted from email awaiting proper placement.",
+        "Transfers": "Files received from other people or systems.\nShared files, AirDrop, and external transfers.",
+        "Unsorted": "Files of unknown origin.\nCatch-all for anything that doesn't fit elsewhere in Intake."
+      }
+    },
+    "Journal": {
+      "description": "Chronological personal writing.\nReflections, logs, and time-ordered narrative entries.",
+      "structure": [
+        "Daily",
+        "Weekly",
+        "Monthly",
+        "Annual",
+        "Dreams",
+        "Gratitude",
+        "Freewrite"
+      ],
+      "descriptions": {
+        "Daily": "Daily journal entries.\nDay-to-day reflections and observations.",
+        "Weekly": "Weekly reviews and reflections.\nSummaries and patterns across the week.",
+        "Monthly": "Monthly reviews and retrospectives.\nLonger-arc reflections and goal tracking.",
+        "Annual": "Annual reviews and year-end reflections.\nBig-picture thinking and year-over-year patterns.",
+        "Dreams": "Dream journal entries.\nRecords of dreams and nocturnal experiences.",
+        "Gratitude": "Gratitude entries.\nIntentional acknowledgment of positive experiences.",
+        "Freewrite": "Unstructured freewriting.\nStream-of-consciousness writing without format."
+      }
+    },
+    "Movies": {
+      "description": "Cinematic works.\nFeature films, documentaries, and shorts treated as cinema.",
+      "structure": {
+        "Drama": [
+          "Character_Study",
+          "Family",
+          "Historical",
+          "Legal",
+          "Political",
+          "Social"
+        ],
+        "Comedy": [
+          "Absurdist",
+          "Dark_Comedy",
+          "Romantic_Comedy",
+          "Satire",
+          "Slapstick"
+        ],
+        "Thriller": [
+          "Crime",
+          "Espionage",
+          "Mystery",
+          "Psychological",
+          "Neo_Noir"
+        ],
+        "Science_Fiction": [
+          "Cyberpunk",
+          "Dystopian",
+          "Hard_SF",
+          "Space_Opera",
+          "Time_Travel"
+        ],
+        "Fantasy": [
+          "Dark_Fantasy",
+          "Epic",
+          "Fairy_Tale",
+          "Mythic",
+          "Urban_Fantasy"
+        ],
+        "Horror": [
+          "Body_Horror",
+          "Cosmic",
+          "Folk",
+          "Psychological",
+          "Slasher",
+          "Supernatural"
+        ],
+        "Action": [
+          "Martial_Arts",
+          "Military",
+          "Heist",
+          "Disaster"
+        ],
+        "Documentary": [
+          "Nature",
+          "Music",
+          "Political",
+          "Portrait",
+          "Science",
+          "True_Crime"
+        ],
+        "Animation": [
+          "Anime",
+          "Stop_Motion",
+          "Traditional",
+          "CGI"
+        ],
+        "Art_House": [
+          "Avant_Garde",
+          "Minimalist",
+          "Surrealist",
+          "Slow_Cinema"
+        ],
+        "World_Cinema": [
+          "Asian",
+          "European",
+          "Latin_American",
+          "Middle_Eastern",
+          "African"
+        ],
+        "Classic": [
+          "Silent",
+          "Golden_Age",
+          "New_Hollywood",
+          "Pre_Code"
+        ]
+      },
+      "descriptions": {
+        "Drama": "Character-driven narratives exploring human experience.\nStories that emphasize emotional depth over spectacle.",
+        "Comedy": "Films designed to provoke laughter.\nHumor as primary mode of engagement.",
+        "Thriller": "Suspense-driven narratives.\nTension and uncertainty as core experience.",
+        "Science_Fiction": "Speculative futures and technological premises.\nIdeas and consequences over action.",
+        "Fantasy": "Magical worlds and mythic structures.\nStories that transcend mundane reality.",
+        "Horror": "Films designed to frighten and unsettle.\nFear as aesthetic experience.",
+        "Action": "Spectacle-driven physical conflict.\nMovement, combat, and kinetic energy.",
+        "Documentary": "Non-fiction filmmaking.\nReality captured and shaped by a point of view.",
+        "Animation": "Animated films across traditions.\nMovement created frame by frame.",
+        "Art_House": "Experimental and auteur-driven cinema.\nFilms that prioritize vision over convention.",
+        "World_Cinema": "Films organized by region of origin.\nBrowsing by cultural tradition.",
+        "Classic": "Historical periods of cinema.\nFilms from defined eras of filmmaking."
+      }
+    },
+    "Music": {
+      "description": "Music intended for listening and browsing.\nOrganized for discovery, adjacency, and strolling.",
+      "structure": {
+        "Classical": [
+          "Baroque",
+          "Classical_Period",
+          "Romantic",
+          "Modern",
+          "Contemporary",
+          "Opera",
+          "Chamber",
+          "Orchestral",
+          "Solo_Piano",
+          "Choral"
+        ],
+        "Jazz": [
+          "Bebop",
+          "Cool",
+          "Free_Jazz",
+          "Fusion",
+          "Hard_Bop",
+          "Modal",
+          "Smooth",
+          "Swing",
+          "Vocal",
+          "Latin_Jazz",
+          "Acid_Jazz",
+          "Nu_Jazz",
+          "Gypsy_Jazz",
+          "Big_Band"
+        ],
+        "Blues": [
+          "Delta",
+          "Chicago",
+          "Texas",
+          "Electric",
+          "Acoustic",
+          "British_Blues",
+          "Jump_Blues",
+          "Piedmont",
+          "Country_Blues",
+          "Blues_Rock"
+        ],
+        "Country": [
+          "Traditional",
+          "Honky_Tonk",
+          "Outlaw",
+          "Nashville_Sound",
+          "Countrypolitan",
+          "Country_Rock",
+          "Alt_Country",
+          "Americana",
+          "Country_Pop",
+          "Bro_Country",
+          "Western_Swing",
+          "Bakersfield_Sound",
+          "Texas_Country",
+          "Red_Dirt",
+          "Bluegrass",
+          "Newgrass"
+        ],
+        "Rock": [
+          "Alternative",
+          "Art_Rock",
+          "Classic_Rock",
+          "Garage",
+          "Grunge",
+          "Hard_Rock",
+          "Indie",
+          "Post_Punk",
+          "Progressive",
+          "Psychedelic",
+          "Punk",
+          "Shoegaze",
+          "Post_Rock",
+          "Math_Rock",
+          "Emo",
+          "Stoner_Rock",
+          "Noise_Rock",
+          "Surf",
+          "Glam",
+          "Southern_Rock",
+          "Britpop"
+        ],
+        "Metal": [
+          "Black",
+          "Death",
+          "Doom",
+          "Heavy",
+          "Power",
+          "Progressive_Metal",
+          "Sludge",
+          "Thrash",
+          "Symphonic",
+          "Metalcore",
+          "Nu_Metal",
+          "Djent",
+          "Folk_Metal",
+          "Gothic_Metal",
+          "Speed",
+          "Groove",
+          "Deathcore"
+        ],
+        "Punk": [
+          "Classic_Punk",
+          "Hardcore",
+          "Post_Hardcore",
+          "Pop_Punk",
+          "Ska_Punk",
+          "Crust",
+          "D_Beat",
+          "Oi",
+          "Anarcho",
+          "Melodic_Hardcore",
+          "Screamo"
+        ],
+        "Electronic": [
+          "Ambient",
+          "Breakbeat",
+          "Downtempo",
+          "Drum_and_Bass",
+          "House",
+          "IDM",
+          "Industrial",
+          "Synthwave",
+          "Techno",
+          "Trance",
+          "Dubstep",
+          "UK_Garage",
+          "Electro",
+          "Chillwave",
+          "Future_Bass",
+          "Hardstyle",
+          "Gabber",
+          "Trip_Hop",
+          "Vaporwave",
+          "Electronica",
+          "Chiptune",
+          "Glitch"
+        ],
+        "Hip_Hop": [
+          "Boom_Bap",
+          "Conscious",
+          "Experimental_Hip_Hop",
+          "Gangsta",
+          "Jazz_Rap",
+          "Lo_Fi_Hip_Hop",
+          "Southern",
+          "Trap",
+          "Underground",
+          "Drill",
+          "Crunk",
+          "Grime",
+          "Abstract",
+          "Cloud_Rap",
+          "Horrorcore",
+          "Chopped_and_Screwed",
+          "Phonk",
+          "UK_Hip_Hop",
+          "G_Funk",
+          "Hyphy"
+        ],
+        "Pop": [
+          "Synth_Pop",
+          "Dance_Pop",
+          "Indie_Pop",
+          "Art_Pop",
+          "Dream_Pop",
+          "Electropop",
+          "Teen_Pop",
+          "Power_Pop",
+          "Baroque_Pop",
+          "Chamber_Pop",
+          "Hyperpop",
+          "K_Pop",
+          "J_Pop",
+          "City_Pop",
+          "Sophisti_Pop",
+          "Jangle_Pop"
+        ],
+        "Reggae": [
+          "Roots",
+          "Dub",
+          "Ska",
+          "Rocksteady",
+          "Dancehall",
+          "Lovers_Rock",
+          "Ragga",
+          "Reggae_Fusion",
+          "Dub_Poetry",
+          "Digital_Reggae",
+          "Reggaeton"
+        ],
+        "Soul_RnB": [
+          "Classic_Soul",
+          "Contemporary_RnB",
+          "Funk",
+          "Gospel",
+          "Motown",
+          "Neo_Soul",
+          "Quiet_Storm",
+          "New_Jack_Swing",
+          "Philadelphia_Soul",
+          "Northern_Soul",
+          "Southern_Soul",
+          "Psychedelic_Soul",
+          "Blue_Eyed_Soul"
+        ],
+        "Folk": [
+          "Acoustic",
+          "Americana",
+          "Celtic",
+          "Contemporary_Folk",
+          "Traditional",
+          "Singer_Songwriter",
+          "Anti_Folk",
+          "Neofolk",
+          "Psych_Folk",
+          "Freak_Folk",
+          "Indie_Folk"
+        ],
+        "World": [
+          "African",
+          "Asian",
+          "Caribbean",
+          "Latin",
+          "Middle_Eastern",
+          "Nordic",
+          "Afrobeat",
+          "Flamenco",
+          "Fado",
+          "Bossa_Nova",
+          "Samba",
+          "Tango",
+          "Klezmer",
+          "Bollywood",
+          "Highlife",
+          "Soukous",
+          "Cumbia",
+          "Salsa",
+          "Merengue",
+          "Bachata"
+        ],
+        "Experimental": [
+          "Avant_Garde",
+          "Drone",
+          "Field_Recordings",
+          "Musique_Concrete",
+          "Noise",
+          "Sound_Collage",
+          "Electroacoustic",
+          "Minimalism",
+          "Spectral",
+          "Free_Improvisation",
+          "Dark_Ambient",
+          "Power_Electronics"
+        ],
+        "New_Age": [
+          "Meditation",
+          "Healing",
+          "Space",
+          "Nature_Sounds",
+          "Relaxation",
+          "Neoclassical"
+        ],
+        "Soundtrack": [
+          "Film",
+          "Television",
+          "Video_Game",
+          "Anime",
+          "Musical_Theater",
+          "Library_Music"
+        ]
+      },
+      "descriptions": {
+        "Classical": "Western art music tradition.\nOrganized by period, form, and instrumentation.",
+        "Jazz": "American improvisational tradition.\nOrganized by era, style, and approach.",
+        "Blues": "African American roots music.\nFoundation of rock, jazz, and soul.",
+        "Country": "American roots music from the rural South and West.\nStorytelling, tradition, and evolution.",
+        "Rock": "Guitar-driven popular music.\nOrganized by subgenre, era, and attitude.",
+        "Metal": "Heavy, distorted, intense.\nOrganized by subgenre and extremity.",
+        "Punk": "Fast, loud, anti-establishment.\nDIY ethos and subcultural identity.",
+        "Electronic": "Synthesized and computer-generated music.\nOrganized by tempo, texture, and scene.",
+        "Hip_Hop": "Beat-driven vocal music.\nOrganized by era, region, and style.",
+        "Pop": "Popular music crafted for broad appeal.\nMelody, hooks, and production polish.",
+        "Reggae": "Jamaican music tradition.\nOffbeat rhythms, bass-heavy, culturally rich.",
+        "Soul_RnB": "African American vocal traditions.\nEmotion, groove, and expression.",
+        "Folk": "Acoustic, traditional-rooted music.\nStories, simplicity, and heritage.",
+        "World": "Music from global traditions.\nOrganized by region and style.",
+        "Experimental": "Boundary-pushing sound art.\nMusic that challenges definition.",
+        "New_Age": "Relaxation and spiritual music.\nAmbient, healing, and contemplative.",
+        "Soundtrack": "Music composed for visual media.\nOrganized by medium and purpose."
+      }
+    },
+    "Notes": {
+      "description": "Short-form thinking artifacts.\nScratch notes, research fragments, ideas, and provisional text.",
+      "structure": {
+        "Research": [
+          "Literature",
+          "Technical",
+          "Observations",
+          "Questions"
+        ],
+        "Ideas": [
+          "Projects",
+          "Writing",
+          "Creative",
+          "Business"
+        ],
+        "Learning": [
+          "Courses",
+          "Books",
+          "Tutorials",
+          "Concepts"
+        ],
+        "Work": [
+          "Meetings",
+          "Planning",
+          "Reviews",
+          "Decisions"
+        ],
+        "Personal": [
+          "Goals",
+          "Reflections",
+          "Health",
+          "Relationships"
+        ],
+        "Reference": [
+          "Cheatsheets",
+          "Procedures",
+          "Contacts",
+          "Lists"
+        ]
+      },
+      "descriptions": {
+        "Research": "Notes from research and investigation.\nRaw material gathered during inquiry.",
+        "Ideas": "Seeds and sparks of possibility.\nThoughts worth capturing before they fade.",
+        "Learning": "Notes from learning activities.\nWhat was absorbed, summarized, or captured.",
+        "Work": "Work-related notes.\nProfessional context and decisions.",
+        "Personal": "Personal notes and reflections.\nPrivate thinking not for external use.",
+        "Reference": "Quick reference materials.\nInformation kept for easy lookup."
+      }
+    },
+    "Projects": {
+      "description": "Active and evolving workspaces.\nMessy by design. Completed outputs should be promoted elsewhere.",
+      "structure": {
+        "Software": [
+          "Active",
+          "Paused",
+          "Archived"
+        ],
+        "Writing": [
+          "Active",
+          "Paused",
+          "Archived"
+        ],
+        "Creative": [
+          "Active",
+          "Paused",
+          "Archived"
+        ],
+        "Research": [
+          "Active",
+          "Paused",
+          "Archived"
+        ],
+        "Learning": [
+          "Active",
+          "Paused",
+          "Archived"
+        ],
+        "Personal": [
+          "Active",
+          "Paused",
+          "Archived"
+        ]
+      },
+      "descriptions": {
+        "Software": "Software development projects.\nCode-heavy work with build artifacts and dependencies.",
+        "Writing": "Writing projects.\nLong-form writing with drafts, research, and revisions.",
+        "Creative": "Creative projects.\nArt, music, video, and other creative work.",
+        "Research": "Research projects.\nInvestigations, experiments, and exploratory work.",
+        "Learning": "Learning projects.\nStructured learning efforts and skill development.",
+        "Personal": "Personal projects.\nLife projects, organization, and self-improvement."
+      }
+    },
+    "Systems": {
+      "description": "System-level artifacts.\nBackups, disk images, installers, and configuration snapshots.",
+      "structure": {
+        "Backups": [
+          "Full_System",
+          "Home_Directory",
+          "Application_Data",
+          "Cloud_Exports"
+        ],
+        "Disk_Images": [
+          "Boot_Drives",
+          "Virtual_Machines",
+          "Recovery"
+        ],
+        "Installers": [
+          "Operating_Systems",
+          "Applications",
+          "Drivers",
+          "Firmware"
+        ],
+        "Configuration": [
+          "Dotfiles",
+          "System_Settings",
+          "Application_Configs",
+          "Scripts"
+        ],
+        "Logs": [
+          "System",
+          "Security",
+          "Application"
+        ]
+      },
+      "descriptions": {
+        "Backups": "Backup archives and snapshots.\nPoint-in-time copies of systems and data.",
+        "Disk_Images": "Disk and partition images.\nBootable and restorable disk captures.",
+        "Installers": "Installation media and packages.\nSoftware needed for system setup.",
+        "Configuration": "System and application configuration.\nSettings, dotfiles, and setup scripts.",
+        "Logs": "Archived system logs.\nHistorical logs preserved for reference."
+      }
+    },
+    "Video": {
+      "description": "Non-cinematic moving images.\nHome videos, lectures, screen recordings, and clips.",
+      "structure": {
+        "Personal": [
+          "Family",
+          "Events",
+          "Travel",
+          "Memories"
+        ],
+        "Educational": [
+          "Lectures",
+          "Tutorials",
+          "Courses",
+          "Talks"
+        ],
+        "Screen_Recordings": [
+          "Demos",
+          "Walkthroughs",
+          "Debugging",
+          "Presentations"
+        ],
+        "Creative": [
+          "Projects",
+          "Experiments",
+          "Raw_Footage",
+          "Exports"
+        ],
+        "Clips": [
+          "Saved",
+          "Memes",
+          "Reference",
+          "Inspiration"
+        ],
+        "Streams": [
+          "Archived",
+          "Highlights",
+          "VODs"
+        ]
+      },
+      "descriptions": {
+        "Personal": "Personal video recordings.\nLife moments captured on video.",
+        "Educational": "Learning and educational videos.\nVideos watched or saved for learning.",
+        "Screen_Recordings": "Captured screen activity.\nRecordings of computer or device screens.",
+        "Creative": "Creative video work.\nVideo projects and raw materials.",
+        "Clips": "Short video clips.\nSaved clips from various sources.",
+        "Streams": "Streamed content.\nLive stream recordings and archives."
+      }
+    }
+  }
+}
